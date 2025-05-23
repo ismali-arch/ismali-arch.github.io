@@ -1,0 +1,35 @@
+.body {
+  min-height: 100vh;
+}
+.image-side {
+  background-color: #f0f0f0;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-size: cover;
+  background-position: center;
+}
+.btn-google,
+.btn-apple {
+  border: 1px solid #ccc;
+  min-width: 202px;
+  height: 32px;
+  font-size: 12px;
+  white-space: nowrap;
+  background-color: white;
+  border-radius: 10px;
+}
+.btn-google img,
+.btn-apple img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+.image-side {
+  background-image: url("rm347-porpla-02-a-01.jpg"); /* atau path lokal */
+}
+
+.alternate {
+  justify-items: left;
+  width: 202px;
+  height: 32px;
+}
