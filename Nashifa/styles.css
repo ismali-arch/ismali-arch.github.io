@@ -1,0 +1,102 @@
+/* General */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Navbar */
+.super-bold {
+  font-weight: 800 !important;
+}
+
+nav a:hover,
+nav a.active {
+    font-weight: 600;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+  background: #e9f0ff;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero-text p {
+  margin: 1rem 0;
+  color: #555;
+}
+
+.hero-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #1d4ed8;
+  color: white;
+  border-radius: 8px;
+  font-weight: 500;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #2563eb;
+}
+
+/* Tabs Filter */
+button.btn-outline-primary {
+  border-radius: 2rem;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+}
+
+/* Cards */
+.card {
+  border-radius: 1rem !important;
+  overflow: hidden;
+  border: none !important;
+}
+
+.card-body a.btn-primary {
+  background-color: #1d4ed8;
+  border: none;
+}
+
+.card-body a.btn-primary:hover {
+  background-color: #2563eb;
+}
+
+/* Section: Paling Banyak Dibaca */
+ul {
+  padding-left: 1rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Footer CTA */
+.mt-5 .btn-primary {
+  padding: 0.75rem 2rem;
+  background: linear-gradient(to right, #1d4ed8, #3b82f6);
+  border: none;
+  font-weight: 500;
+}

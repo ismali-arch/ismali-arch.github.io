@@ -24,13 +24,14 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
       confirmButtonText: "OK",
       confirmButtonColor: "#3085d6",
     }).then(() => {
-      window.location.href = "Home.html";
+      window.location.href = "../shananda/Dashboard.html";
     });
   } else {
     Swal.fire({
       icon: "error",
       title: "Gagal",
       text: "Email atau kata sandi salah!",
+      confirmButtonColor: "#3085d6",
     });
   }
 });

@@ -1,0 +1,228 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F4F6;
+    line-height: 1.6;
+}
+
+/* Nav */
+.super-bold {
+  font-weight: 800 !important;
+}
+
+nav a:hover,
+nav a.active {
+    font-weight: 600;
+}
+
+
+.welcome-box {
+    background-color: #1C4AB0; 
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 48px; 
+}
+
+  .card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background-color: #f8f9fa; /* atau ubah sesuai warna hover */
+  }
+
+
+
+.artikel-box {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    max-width: 789px;
+    width: 100%;
+    height: auto; 
+    margin: 48 auto;
+}
+
+
+.artikel-content {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: all 0.5s;
+}
+
+.artikel-content:hover {
+  padding-left: 35px;
+  padding-right: 35px;
+  background: #F3F4F6;
+  border-radius: 16px;
+  transition: all 0.5s;
+  translate: 8px; 
+}
+
+@media (max-width: 991.98px) {
+  .artikel-content {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.artikel-lines{
+  max-width: 789px;
+  width: 100%;
+  border: none;
+  margin: 2 auto 24px auto;
+  border-top: 2px solid #60A5FA;
+  
+}
+
+.artikel-line {
+    max-width: 656px;
+    width: 100%;
+    margin: 24px auto;
+    border: none;
+    border-top: 1px solid #60A5FA;
+}
+
+.literasi-box{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    max-width: 789px;
+    width: 100%;
+    height: auto; 
+    margin: 48 auto;
+  }
+
+  .literasi-content-box{
+    background-color: rgba(219, 234, 255, 0.3);;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    max-width: 721px;
+    transition: all 0.5s;
+  }
+
+  .literasi-content-box:hover{
+    translate: 0px -4px ;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .literasi-content{
+    padding: 31px;
+
+  }
+  
+  
+  .berita-box {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    max-width: 789px;
+    width: 100%;
+    height: auto; 
+    margin: 48 auto;
+  }
+ 
+
+  .berita-content {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: all 0.5s;
+  }
+
+  .berita-content:hover {
+  padding-left: 35px;
+  padding-right: 35px;
+  background: #F3F4F6;
+  border-radius: 16px;
+  transition: all 0.5s;
+  translate: 8px; 
+ }
+
+
+@media (max-width: 991.98px) {
+  .berita-content {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.activitas-box {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    max-width: 410px;
+    width: 100%;
+    height: auto; 
+    margin: 48 auto;
+}
+
+.activitas-box .text-truncate {
+  max-width: max-content;
+}
+
+
+.activitas-content {
+  padding: 10px 20px;
+  transition: all 0.5s;
+  margin: 1px;
+}
+
+.activitas-content:hover {
+  padding: 10px 20px;
+  background: #F3F4F6;
+  border-radius: 16px;
+  transition: all 0.5s;
+  translate: 8px; 
+}
+
+@media (max-width: 1001.98px) {
+  .activitas-content {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.rekomendasi-box {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    max-width: 410px;
+    width: 100%;
+    height: auto; 
+    margin: 48 auto;
+}
+
+
+
+.rekomendasi-content {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: all 0.5s;
+}
+
+.rekomendasi-content:hover {
+  padding-left: 35px;
+  padding-right: 35px;
+  background: #F3F4F6;
+  border-radius: 16px;
+  transition: all 0.5s;
+  translate: 8px; 
+}
+
+@media (max-width: 991.98px) {
+  .rekomendasi-content {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}

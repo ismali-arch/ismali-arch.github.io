@@ -3,8 +3,8 @@
 }
 .image-side {
   background-color: #f0f0f0;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
   background-size: cover;
   background-position: center;
 }
@@ -25,7 +25,19 @@
   margin-right: 8px;
 }
 .image-side {
-  background-image: url("rm347-porpla-02-a-01.jpg"); /* atau path lokal */
+  background-image: url("rm347-porpla-02-a-01.jpg");
+  animation: slideIn 1s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX();
+    opacity: 1;
+  }
 }
 
 .alternate {
