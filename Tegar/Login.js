@@ -24,7 +24,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
       confirmButtonText: "OK",
       confirmButtonColor: "#3085d6",
     }).then(() => {
-      window.location.href = "../Shananda/Dashboard.html";
+      window.location.href = "Shananda/Dashboard.html";
     });
   } else {
     Swal.fire({
